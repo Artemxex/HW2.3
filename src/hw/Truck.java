@@ -1,4 +1,4 @@
-package HW;
+package hw;
 
 public class Truck extends WheelVehicles implements Servisable{
 
@@ -7,15 +7,15 @@ public class Truck extends WheelVehicles implements Servisable{
         super(modelName, wheelsCount);
     }
 
-    public void updateTyre() {
+    private void updateTyre() {
         System.out.println("Меняем покрышку грузовика");
     }
 
-    public void checkEngine() {
+    private void checkEngine() {
         System.out.println("Проверяем двигатель грузовика");
     }
 
-    public void checkTrailer() {
+    private void checkTrailer() {
         System.out.println("Проверяем прицеп грузовика");
     }
 

@@ -1,4 +1,4 @@
-package HW;
+package hw;
 
 public class Car extends WheelVehicles implements Servisable {
 
@@ -6,11 +6,11 @@ public class Car extends WheelVehicles implements Servisable {
         super(modelName, wheelsCount);
     }
 
-    public void updateTyre() {
+    private void updateTyre() {
         System.out.println("Меняем покрышку машины");
     }
 
-    public void checkEngine() {
+    private void checkEngine() {
         System.out.println("Проверяем двигатель машины");
     }
 

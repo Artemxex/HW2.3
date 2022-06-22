@@ -1,4 +1,4 @@
-package HW;
+package hw;
 
 public class Bicycle extends WheelVehicles implements Servisable {
 
@@ -6,7 +6,7 @@ public class Bicycle extends WheelVehicles implements Servisable {
         super(modelName, wheelsCount);
     }
 
-    public void updateTyre() {
+    private void updateTyre() {
         System.out.println("Меняем покрышку велосипеда");
     }
 

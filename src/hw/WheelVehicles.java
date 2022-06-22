@@ -1,8 +1,8 @@
-package HW;
+package hw;
 
 public class WheelVehicles {
-    public String modelName;
-    public int wheelsCount;
+    private String modelName;
+    private int wheelsCount;
 
     public WheelVehicles(String modelName, int wheelsCount) {
         this.modelName = modelName;
